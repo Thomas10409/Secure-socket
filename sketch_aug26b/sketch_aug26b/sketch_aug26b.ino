@@ -14,9 +14,9 @@
 
 #include "LittleFS.h"
 
-const char* ssid     = "152-1F";
-const char* password = "dgaixdrl";
-const char* host     = "192.168.1.109";
+const char* ssid     = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
+const char* host     = "YOUR_SERVER_IP";
 const unsigned int port     = 12345;
 
 const unsigned int serverRetryDelay = 2000; // Interval to server reconnection (in milliseconds)
